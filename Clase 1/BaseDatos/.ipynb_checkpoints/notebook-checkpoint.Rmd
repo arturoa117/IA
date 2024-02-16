@@ -1,0 +1,11 @@
+---
+title: "Musician Dataset"
+output: html_document
+---
+
+```{r, echo=FALSE}
+library(knitr)
+music <- read.csv("musictest.csv")
+kable(head(music,100), align='r')
+```
+
